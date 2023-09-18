@@ -1,0 +1,18 @@
+# Used to deploy
+export HDWALLET_MNEMONIC=''
+
+# Used to deploy
+export INFURA_API_KEY=''
+
+# Used for verifying contracts on Etherscan
+export ETHERSCAN_API_KEY=''
+export AVALANCHE_API_KEY=
+
+# Required for forking
+export ALCHEMY_URL=''
+
+# Block number from which to fork
+export FORK_BLOCK_NUMBER=''
+
+# Used to deploy
+export PRIVATE_KEY=''

@@ -1,0 +1,21 @@
+node_modules
+.env
+.envrc
+coverage
+coverage.json
+typechain
+typechain-types
+
+#Hardhat files
+cache
+artifacts
+abis/
+
+.vscode
+.DS_Store
+*.car
+tasks.md
+test-results.xml
+
+#local deployments
+deployments/localhost
