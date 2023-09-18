@@ -14,6 +14,7 @@
   "scripts": {
     "compile": "hardhat --show-stack-traces --max-memory 8192 compile",
     "deploy": "npx hardhat deploy",
+    "start": "echo 'Starting node for local testing....\n'; rm -rf deployments/localhost_31337; DISABLE_HARNESS=true hardhat node",
     "deploy:node": "hardhat --config hardhat.config.js deploy --deploy-scripts deploy --write true --network",
     "hint": "solhint \"contracts/**/*.sol\"",
     "size-contracts": "hardhat size-contracts"
